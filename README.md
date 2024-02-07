@@ -1,8 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Olá seja bem vindo ao projeto chat em tempo real de reactJs + vite 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+para iniciar o projeto rodar esse comando  com o npm na pasta client :
+npm run dev 
+
+
+
+para startar o servidor com  quarkus usar esse comando na pasta server : 
+npm run dev 
+
+para baixar as dependecias usadas no back-end por favor usar esse comando na pasta  server: 
+
+npm i express socket.io
+
+npm i nodemon -D
+
+npm init -y
+
+depois disso o projeto ira iniciar  e pronto só usar o chat em tempo real com back-end  usando o nodemon e quarkus 
+
+no terminal do back-end ira mostrar quando o usuario é conectado com o chat e quando o usuario é desconectado!
+
+
